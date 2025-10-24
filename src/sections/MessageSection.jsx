@@ -58,7 +58,7 @@ const MessageSection = () => {
       delay: 0.5,
       scrollTrigger: {
         trigger: ".message-content p",
-        start: "top center",
+        start: "top 70%",
       },
     });
 
