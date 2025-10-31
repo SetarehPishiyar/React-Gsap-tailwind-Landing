@@ -2,6 +2,7 @@ import React from "react";
 import ClipPathTitle from "../components/ClipPathTitle";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import VideoPinSection from "../components/VideoPinSection";
 
 const BenefitSection = () => {
   useGSAP(() => {
@@ -9,8 +10,8 @@ const BenefitSection = () => {
       delay: 1,
       scrollTrigger: {
         trigger: ".benefit-section",
-        start: "top 60%",
-        end: "center top",
+        start: "top 80%",
+        end: "30% top",
         scrub: 1.5,
       },
     });
@@ -83,10 +84,14 @@ const BenefitSection = () => {
               borderColor={"#222123"}
             ></ClipPathTitle>
           </div>
-          <div className="md:mt-0 mt-10 mb-10">
+          <div className="md:mt-0 mt-10 md:mb-30">
             <p>And Much More ...</p>
           </div>
         </div>
+      </div>
+
+      <div className="relative overlay-box">
+        <VideoPinSection></VideoPinSection>
       </div>
     </section>
   );
