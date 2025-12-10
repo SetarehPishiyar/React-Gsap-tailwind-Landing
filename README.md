@@ -141,13 +141,12 @@ All screenshots below are automatically loaded from the `/Demo` directory.
 
 ![Screenshot 1](Demo/1.png)
 ![Screenshot 2](Demo/2.png)
-![Screenshot 3](Demo/3.jpg)
+![Screenshot 3](Demo/3.png)
 ![Screenshot 4](Demo/4.png)
 ![Screenshot 5](Demo/5.png)
-![Screenshot 6](Demo/6.jpg)
-![Screenshot 7](Demo/7.png)
+![Screenshot 6](Demo/6.png)
 ![Screenshot 8](Demo/8.png)
-![Screenshot 9](Demo/9.jpg)
+![Screenshot 9](Demo/9.png)
 ![Screenshot 10](Demo/10.png)
 ![Screenshot 11](Demo/11.png)
 
