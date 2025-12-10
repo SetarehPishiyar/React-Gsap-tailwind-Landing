@@ -142,14 +142,14 @@ All screenshots below are automatically loaded from the `/Demo` directory.
 ![Screenshot 1](Demo/1.png)
 ![Screenshot 2](Demo/2.png)
 ![Screenshot 3](Demo/3.jpg)
-![Screenshot 4](./demo/4.png)
-![Screenshot 5](./demo/5.png)
-![Screenshot 6](./demo/6.jpg)
-![Screenshot 7](./demo/7.png)
-![Screenshot 8](./demo/8.png)
-![Screenshot 9](./demo/9.jpg)
-![Screenshot 10](./demo/10.png)
-![Screenshot 11](./demo/11.png)
+![Screenshot 4](Demo/4.png)
+![Screenshot 5](Demo/5.png)
+![Screenshot 6](Demo/6.jpg)
+![Screenshot 7](Demo/7.png)
+![Screenshot 8](Demo/8.png)
+![Screenshot 9](Demo/9.jpg)
+![Screenshot 10](Demo/10.png)
+![Screenshot 11](Demo/11.png)
 
 ---
 ## 📦 Build for Production
