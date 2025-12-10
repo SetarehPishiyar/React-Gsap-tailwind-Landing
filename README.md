@@ -1,16 +1,158 @@
-# React + Vite
+# 🌟 Animated Landing Page — React + Vite + GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually rich, fully animated, and highly interactive landing page built with **React**, powered by **GSAP**, **ScrollTrigger**, and a modular section-based design.  
+This project focuses on smooth motion, immersive storytelling, scroll-based interactions, and premium UI presentation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+This landing page is crafted as a cinematic, animated interface featuring:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fluid GSAP animations  
+- Scroll-triggered transitions  
+- Pinned video sequences  
+- Horizontal flavor sliders  
+- Clip-path title reveals  
+- Responsive mobile/desktop behavior  
+- Smooth “easy scroll–like” experience through scrubbed timelines  
 
-## Expanding the ESLint configuration
+The codebase is clean, scalable, and split into modular components and sections.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+### 🎞 GSAP Animation System
+Powered by:
+- **GSAP Timeline**
+- **ScrollTrigger**
+- Scrub-based motion
+- Pinned scroll scenes
+- Fade, scale, transform, and clip-path effects
+- Scroll-synced storytelling
+
+### 📽 Video Pinning Section
+The `VideoPinSection` implements:
+- ScrollTrigger pinning  
+- Progressive zoom animations  
+- Multi-step GSAP timelines  
+- Immersive fullscreen video presentation  
+
+### 🍓 Horizontal Flavor Slider
+The `FlavorSlider` includes:
+- Horizontal scroll animation synced with GSAP  
+- Auto-calculation of scrollable width  
+- Device-aware behavior with `react-responsive`  
+- Smooth left–right transitions  
+
+### 🎨 ClipPath Title Animation
+Custom title reveal animations using:
+- Dynamic **clip-path** shapes  
+- Soft GSAP easing  
+- Timed stagger effects  
+
+### 🧭 Easy-Scroll Experience
+Although it doesn’t use an external smooth-scroll library, the page creates a similar effect using:
+- GSAP scrubbing  
+- Gradual timeline curves  
+- Scroll-based interpolation  
+
+### 🧩 Modular Component Architecture
+Every animated element is isolated inside reusable components, ensuring maintainability and easy feature expansion.
+
+---
+
+## 📁 Project Structure
+
+/
+├── App.jsx
+├── main.jsx
+├── index.css
+
+├── components/
+│ ├── ClipPathTitle.jsx
+│ ├── FlavorSlider.jsx
+│ ├── FlavorTitle.jsx
+│ ├── NavBar.jsx
+│ └── VideoPinSection.jsx
+
+├── sections/
+│ ├── HeroSection.jsx
+│ ├── BenefitSection.jsx
+│ ├── FlavorSection.jsx
+│ ├── NutritionSection.jsx
+│ ├── MessageSection.jsx
+│ ├── TestimonialSection.jsx
+│ └── FooterSection.jsx
+
+└── constants/
+└── index.js
+
+
+---
+
+## 🛠 Technologies Used
+
+### Core
+- **React + Vite**
+- **JavaScript (ES6+)**
+- **CSS**
+- **React Responsive**
+
+### Animation
+- **GSAP**
+- **GSAP ScrollTrigger**
+- **useGSAP React Hook**
+
+### Architecture
+- Section-based layout  
+- Reusable UI components  
+- Data-driven content via constants  
+
+---
+
+## 🔧 Installation & Setup
+
+### **1. Clone the repository**
+``` bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### **2. Install dependencies**
+
+``` bash
+npm install
+```
+
+### **3. Start the development server**
+
+``` bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+*Add your screenshots here:*
+
+    /screenshots
+    │── screenshot1.png
+    │── screenshot2.png
+    │── ...
+
+---
+## 📦 Build for Production
+
+``` bash
+npm run build
+```
+---
+## 📝 License
+
+You may add a license section here if needed (MIT recommended).
+
+
+
